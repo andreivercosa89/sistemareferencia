@@ -8,6 +8,7 @@ namespace sistemareferencia
         public string Endereco { get; set; }
 
         public void Dados(){
+
             Console.WriteLine("Nome: {0}\nIdade:{1}\nEndereco: {2}", Nome, Idade, Endereco);
         }
 
